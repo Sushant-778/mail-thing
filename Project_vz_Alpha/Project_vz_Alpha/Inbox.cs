@@ -1,4 +1,4 @@
-﻿//"htay msot wlmo zpxh"
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -42,7 +42,7 @@ namespace Project_vz_Alpha
                 try
                 {
                     await client.ConnectAsync("imap.gmail.com", 993, SecureSocketOptions.SslOnConnect);
-                    await client.AuthenticateAsync("sushantneupane2003@gmail.com", "htay msot wlmo zpxh");
+                    await client.AuthenticateAsync("youremail@gmail.com", "16 digit app password");  // gmail+password validation gareko xaina , external class bata garnu milxa hola idk if DB use garnu ki nai 
 
                     client.Inbox.Open(FolderAccess.ReadOnly);
 
@@ -85,7 +85,7 @@ namespace Project_vz_Alpha
             using (var client = new ImapClient())
             {
                 client.Connect("imap.gmail.com", 993, true);
-                client.Authenticate("sushantneupane2003@gmail.com", "htay msot wlmo zpxh");
+                client.Authenticate("emailthing@gmail.com", "16digit app password");
 
                 client.Inbox.Open(FolderAccess.ReadOnly);
 
