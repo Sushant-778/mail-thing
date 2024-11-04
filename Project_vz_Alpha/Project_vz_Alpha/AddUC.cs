@@ -62,7 +62,7 @@ namespace Project_vz_Alpha
             try
             {
                 MailMessage mail = new MailMessage();
-                mail.From = new MailAddress("sushantneupane2003@gmail.com");
+                mail.From = new MailAddress("your email@gmail.com");
 
                 // Add the main recipient from the first email field
                 if (!string.IsNullOrWhiteSpace(to.Text))
@@ -89,7 +89,7 @@ namespace Project_vz_Alpha
                 // Set up SMTP client
                 SmtpClient smtpClient = new SmtpClient("smtp.gmail.com");
                 smtpClient.Port = 587;
-                smtpClient.Credentials = new NetworkCredential("sushantneupane2003@gmail.com", "htay msot wlmo zpxh");
+                smtpClient.Credentials = new NetworkCredential("your email@gmail.com", "16 digit password");
                 smtpClient.EnableSsl = true;
 
                 // Send email
