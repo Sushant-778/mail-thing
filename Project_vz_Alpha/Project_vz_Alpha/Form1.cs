@@ -11,6 +11,9 @@ namespace Project_vz_Alpha
     {
 
         // Import necessary Windows API functions
+        // import tah gare tara idk use mah aauxa ki nai because smaller window bata suru gareko theo so top pannel mah use gareko theo 
+// hallauna milne bhanera , aba tah maximized window mah xa 
+
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HTCAPTION = 0x2;
 
